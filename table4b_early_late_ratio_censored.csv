@@ -1,0 +1,9 @@
+final_result,specification,n,mean_ratio,median_ratio,q1,q3
+Distinction,naive (uncensored),3024,0.296,0.257,0.167,0.378
+Pass,naive (uncensored),12361,0.321,0.262,0.161,0.403
+Fail,naive (uncensored),7052,10.448,0.835,0.342,2.401
+Withdrawn,naive (uncensored),10156,30.479,1.051,1.0,9.238
+Distinction,"censored day 56, survivors",3024,3.269,1.882,1.271,2.872
+Pass,"censored day 56, survivors",12361,3.383,1.798,1.134,2.907
+Fail,"censored day 56, survivors",7044,14.511,2.351,1.12,6.316
+Withdrawn,"censored day 56, survivors",4093,15.021,2.44,1.289,5.465

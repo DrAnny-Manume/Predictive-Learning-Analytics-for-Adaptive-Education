@@ -1,0 +1,9 @@
+task,specification,model,accuracy_mean,accuracy_sd,macro_f1_mean,macro_f1_sd,majority_baseline,roc_auc_mean,roc_auc_sd
+multiclass,C_plus_censored_assessment,LogisticRegression,0.377,0.0073,0.3733,0.0072,0.4489,,
+multiclass,C_plus_censored_assessment,RandomForest,0.4921,0.0044,0.4239,0.0058,0.4489,,
+binary_at_risk,C_plus_censored_assessment,LogisticRegression,0.6765,0.0048,0.6745,0.0045,0.5587,0.7373,0.0048
+binary_at_risk,C_plus_censored_assessment,RandomForest,0.706,0.005,0.6976,0.0048,0.5587,0.7682,0.0035
+multiclass,D_original_uncensored_LEAKY,LogisticRegression,0.6561,0.0012,0.6295,0.0021,0.3793,,
+multiclass,D_original_uncensored_LEAKY,RandomForest,0.7304,0.0059,0.6911,0.0066,0.3793,,
+binary_at_risk,D_original_uncensored_LEAKY,LogisticRegression,0.9167,0.0028,0.9166,0.0028,0.528,0.971,0.0024
+binary_at_risk,D_original_uncensored_LEAKY,RandomForest,0.9384,0.0033,0.9384,0.0033,0.528,0.9826,0.0014

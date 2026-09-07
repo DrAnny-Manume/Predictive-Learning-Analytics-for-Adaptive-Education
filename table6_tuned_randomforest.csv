@@ -1,0 +1,2 @@
+model,accuracy_mean,accuracy_sd,macro_f1_mean,macro_f1_sd,best_params
+RandomForest (tuned),0.4688,0.0036,0.4313,0.003,"{""max_depth"": ""14"", ""max_features"": ""log2"", ""min_samples_leaf"": ""6"", ""n_estimators"": ""279""}"

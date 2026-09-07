@@ -1,0 +1,5 @@
+metric,H,df,p,epsilon_squared,n
+total_clicks,2495.544208,3,0.0,0.090526,27538
+n_active_days,2660.899817,3,0.0,0.096532,27538
+early_late_ratio,95.546736,3,0.0,0.003361,27538
+avg_assessment_score,2199.025059,3,0.0,0.079757,27538

@@ -1,0 +1,13 @@
+task,feature_set,model,accuracy_mean,accuracy_sd,macro_f1_mean,macro_f1_sd,majority_baseline,roc_auc_mean,roc_auc_sd
+multiclass,A_engagement_only,LogisticRegression,0.3206,0.005,0.2948,0.0062,0.4489,,
+multiclass,A_engagement_only,RandomForest,0.3917,0.0053,0.3174,0.0056,0.4489,,
+multiclass,B_engagement_demographics,LogisticRegression,0.3356,0.0077,0.3281,0.0069,0.4489,,
+multiclass,B_engagement_demographics,RandomForest,0.4458,0.0047,0.3599,0.0074,0.4489,,
+multiclass,C_plus_censored_assessment,LogisticRegression,0.377,0.0073,0.3733,0.0072,0.4489,,
+multiclass,C_plus_censored_assessment,RandomForest,0.4921,0.0044,0.4239,0.0058,0.4489,,
+binary_at_risk,A_engagement_only,LogisticRegression,0.6165,0.0046,0.6162,0.0045,0.5587,0.6677,0.0065
+binary_at_risk,A_engagement_only,RandomForest,0.6201,0.0031,0.6137,0.0038,0.5587,0.6606,0.0056
+binary_at_risk,B_engagement_demographics,LogisticRegression,0.6526,0.0091,0.6513,0.0095,0.5587,0.7098,0.0078
+binary_at_risk,B_engagement_demographics,RandomForest,0.664,0.005,0.6556,0.0052,0.5587,0.7152,0.0041
+binary_at_risk,C_plus_censored_assessment,LogisticRegression,0.6765,0.0048,0.6745,0.0045,0.5587,0.7373,0.0048
+binary_at_risk,C_plus_censored_assessment,RandomForest,0.706,0.005,0.6976,0.0048,0.5587,0.7682,0.0035

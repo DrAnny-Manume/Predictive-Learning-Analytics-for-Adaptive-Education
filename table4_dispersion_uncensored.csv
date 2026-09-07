@@ -1,0 +1,17 @@
+metric,final_result,n,mean,sd,median,q1,q3
+total_clicks,Distinction,3024,2666.759,2409.993,1896.0,942.0,3765.0
+total_clicks,Pass,12361,1921.809,1852.804,1343.0,683.0,2568.0
+total_clicks,Fail,7052,651.853,966.942,317.0,98.0,796.25
+total_clicks,Withdrawn,10156,313.95,608.63,89.0,0.0,373.0
+n_active_days,Distinction,3024,110.043,58.0,103.0,63.0,148.0
+n_active_days,Pass,12361,87.044,51.069,78.0,47.0,117.0
+n_active_days,Fail,7052,33.177,34.641,22.0,8.0,47.0
+n_active_days,Withdrawn,10156,16.289,23.418,7.0,0.0,23.0
+early_late_ratio,Distinction,3024,0.296,0.206,0.257,0.167,0.378
+early_late_ratio,Pass,12361,0.321,0.305,0.262,0.161,0.403
+early_late_ratio,Fail,7052,10.448,42.159,0.835,0.342,2.401
+early_late_ratio,Withdrawn,10156,30.479,97.162,1.051,1.0,9.238
+avg_assessment_score,Distinction,3024,88.493,6.648,89.417,85.75,92.778
+avg_assessment_score,Pass,12361,76.16,10.559,77.857,70.083,83.889
+avg_assessment_score,Fail,7052,52.326,29.43,61.0,40.5,73.8
+avg_assessment_score,Withdrawn,10156,28.957,35.545,-1.0,-1.0,66.0
